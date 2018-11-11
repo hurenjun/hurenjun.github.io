@@ -10,6 +10,13 @@
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+	<script src="bootstrap/css/jquery-1.10.2.js"></script> 
+	<script> 
+    $(function(){
+      $("#includePublications").load("publications.html"); 
+    });
+    </script> 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -80,7 +87,7 @@
 					<h3 class="panel-title"><b>Short Bio</b></h3>
 				</div>
 				<div class="panel-body">
-					<p>I am currently a Ph.D. student at the School of Computer Science and Engineering, Beihang University, supervised by Prof. <a target="_blank" href="http://mashuai.buaa.edu.cn">Shuai Ma</a>. I obtained my BS degree also in computer science and technology from Beihang University in 2014. I was a visitting student at the Data Mining group at Rutgers, the State University of New Jersey, supervised by Dr. <a target="_blank" href="http://datamining.rutgers.edu/">Hui Xiong</a> from September 2017 to April 2018. My research focuses on graph and AI algorithms for mobile analytics and urban computing.
+					<p>I am currently a Ph.D. student at the School of Computer Science and Engineering, Beihang University, supervised by Prof. <a target="_blank" href="http://mashuai.buaa.edu.cn">Shuai Ma</a>. I obtained my BS degree also in computer science and technology from Beihang University in 2014. I was a visitting student at the Data Mining group at Rutgers, the State University of New Jersey, supervised by Dr. <a target="_blank" href="http://datamining.rutgers.edu/">Hui Xiong</a> from September 2017 to April 2018. Since May 2018, I am a research intern at Baidu Business Intelligence Lab. My research focuses on graph and AI algorithms for mobile analytics and urban computing.
 					</p>
 				</div>
 			</div>
@@ -88,60 +95,7 @@
 	</div>
 	
 	<!-- publications -->
-	<div class="container">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="panel panel-success">
-				<div class="panel-heading">
-					<h3 class="panel-title"><b>Publications</b></h3>
-				</div>
-				<div class="panel-body">
-					<ul>
-						<li>
-							<b><a target="_blank" href="pubs/icde2018.pdf">"Query Independent Scholarly Article Ranking."</a></b>
-							&nbsp; [<a target="_blank" href="pubs/icde2018-slides.pdf">slides</a>] 
-							&nbsp; [<a target="_blank" href="pubs/icde2018.txt">bib</a>]
-							&nbsp; [<a target="_blank" href="pubs/benchmark.rar">benchmark</a>] 
-							<br>
-							Shuai Ma, Chen Gong, <b>Renjun Hu</b>, Dongsheng Luo, Chunming Hu, Jinpeng Huai. 
-							<I>IEEE International Conference on Data Engineering (ICDE)</I>, 2018.
-						</li>
-						<br>
-						<li>
-							<b><a target="_blank" href="pubs/icde2017.pdf">"Fast Computation of Dense Temporal Subgraphs."</a></b>
-							&nbsp; [<a target="_blank" href="pubs/icde2017-slides.pdf">slides</a>] 
-							&nbsp; [<a target="_blank" href="pubs/icde2017-poster.pdf">poster</a>]
-							&nbsp; [<a target="_blank" href="pubs/icde2017.txt">bib</a>]
-							&nbsp; [<a target="_blank" href="https://github.com/hurenjun/TDSubgraph">codes and data</a>] 
-							<br>
-							Shuai Ma, <b>Renjun Hu</b>, Luoshu Wang, Xuelian Lin, Jinpeng Huai. 
-							<I>IEEE International Conference on Data Engineering (ICDE)</I>, 2017.
-						</li>
-						<br>
-						<li>
-							<b><a target="_blank" href="pubs/icde2016.pdf">"An Embedding Approach to Anomaly Detection."</a></b>
-							&nbsp; [<a target="_blank" href="pubs/icde2016-slides.pdf">slides</a>] 
-							&nbsp; [<a target="_blank" href="pubs/icde2016-poster.pdf">poster</a>]
-							&nbsp; [<a target="_blank" href="pubs/icde2016.txt">bib</a>]
-							&nbsp; [<a target="_blank" href="https://github.com/hurenjun/EmbeddingAnomalyDetection">codes</a>]
-							<br>
-							<b>Renjun Hu</b>, Charu Aggarwal, Shuai Ma, and Jinpeng Huai. 
-							<I>IEEE International Conference on Data Engineering (ICDE)</I>, 2016.
-						</li>
-						<br>
-						<li>
-							<b><a target="_blank" href="pubs/wsdm2016.pdf">"Scaling up Link Prediction with Ensembles."</a></b>
-							&nbsp; [<a target="_blank" href="pubs/wsdm2016-slides.pdf">slides</a>] 
-							&nbsp; [<a target="_blank" href="pubs/wsdm2016-poster.pdf">poster</a>]
-							&nbsp; [<a target="_blank" href="pubs/wsdm2016.txt">bib</a>]
-							<br>
-							Liang Duan, Charu Aggarwal, Shuai Ma, <b>Renjun Hu</b>, and Jinpeng Huai. 
-							<I>ACM International Conference on Web Search and Data Mining (WSDM)</I>, 2016.
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>	
-	</div>
+	<div id="includePublications"></div>
 	
 	<!-- Experience -->
 	<div class="container">
