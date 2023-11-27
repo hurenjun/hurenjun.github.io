@@ -42,8 +42,71 @@
 
     <section id="abstract" class="container my-5">
         <h3>Graph- and Relation-Centric Represenation Learning</h3>
-        <p></p>
+        <p>TMC (1), ICDE (1), TKDD (1)</p>
     </section>
+
+    <div class="container my-5">
+      <div class="row">
+        
+        <div class="col-lg-6 col-md-6 mb-4">
+          <div class="card h-100">
+            <img src="grl/TMC-2022.png" class="card-img-top" alt="Raw mobility annotation example">
+            <div class="card-body">
+              <h6 class="card-title">[TMC-2022] NCF: A Neural Context Fusion Approach to Raw Mobility Annotation</h6>
+              <p class="card-text"  style="font-size: 14px;">Understanding human mobility patterns at the point-of-interest (POI) scale plays 
+                an important role in enhancing business intelligence in mobile environments.
+                While large efforts have been made in this direction, most studies simply utilize POI check-ins to mine the concerned mobility patterns, 
+                the effectiveness of which is usually hindered due to data sparsity. 
+                To obtain better POI-based human mobility for mining, in this paper, we strive to directly annotate the POIs associated with 
+                raw user-generated mobility records. 
+                We propose a neural context fusion approach which integrates various context factors in people's POI-visiting behaviors. 
+                Our approach evaluates the preference and transition factors via representation learning. 
+                Notably, we incorporate an attention mechanism to deal with the randomized transitions in raw mobility. 
+                The domain knowledge factors, i.e., distance, time and popularity, remain effective and our approach further includes them from a data-driven perspective. 
+                Factors are automatically fused with a feed-forward neural network. 
+                Furthermore, we exploit a multi-head architecture to enhance the model expressiveness. 
+                Using two real-life data sets, we conduct our experimental study and find that our approach consistently outperforms the state-of-the-art 
+                baselines by at least 32 percent in accuracy. 
+                Besides, we demonstrate the utility of the obtained POI-based human mobility with a POI recommendation example.</p>
+            </div>
+            <div class="card-footer">
+              <a target="_blank" href="../pubs/tmc2022.pdf" class="btn btn-primary">Read More</a>
+              <a target="_blank" href="../pubs/tkdd2020.pdf" class="btn btn-primary">TKDD Related Work</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 mb-4">
+          <div class="card h-100">
+            <img src="grl/ICDE-2016.png" class="card-img-top" alt="Anomaly Illustration">
+            <div class="card-body">
+              <h6 class="card-title">[ICDE-2016] An Embedding Approach to Anomaly Detection</h6>
+              <p class="card-text"  style="font-size: 14px;">
+                Network anomaly detection has become very popular in recent years 
+                because of the importance of discovering key
+                regions of structural inconsistency in the network. In addition
+                to application-specific information carried by anomalies, the
+                presence of such structural inconsistency is often an impediment
+                to the effective application of data mining algorithms such as
+                community detection and classification. In this paper, we study
+                the problem of detecting structurally inconsistent nodes that
+                connect to a number of diverse influential communities in large
+                social networks. We show that the use of a network embedding
+                approach, together with a novel dimension reduction technique,
+                is an effective tool to discover such structural inconsistencies. We
+                also experimentally show that the detection of such anomalous
+                nodes has significant applications: one is the specific use of
+                detected anomalies, and the other is the improvement of the
+                effectiveness of community detection.</p>
+            </div>
+            <div class="card-footer">
+              <a target="_blank" href="../pubs/icde2016.pdf" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
